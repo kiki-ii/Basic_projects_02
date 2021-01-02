@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    height: 200vh;
+    background: #fff;
+}
+section {
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 200px);
+    background: #2abbff;
+}
+section .curve {
+    position: absolute;
+    bottom: -200px;
+    height: 200px;
+    width: 100%;
+    transform-origin: top;
+}
+
+section .curve img {
+    width: 100%;
+    max-height: 100%;
+}

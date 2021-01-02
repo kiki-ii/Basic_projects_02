@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: url(https://cdn.pixabay.com/photo/2015/10/12/14/59/girl-984060_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    clip-path: circle(0px at center);
+
+}
+
+.container {
+    position: relative;
+    margin-top: 200vh;
+    background: #fff;
+    padding: 100px;
+}
+
+.container h2 {
+    font-size: 2.5em;
+
+}
+.title {
+    position: relative;
+    top: 250px;
+    z-index: 1;
+    font-size: 3em;
+    text-align: center;
+    width: 100%;
+}

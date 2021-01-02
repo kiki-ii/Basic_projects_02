@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clip-path Transform Effects on Scroll</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 class="title">Scroll To See Magin Again...</h2>
+    <section></section>
+    <div class="container">
+        <h2>Also Watch Part 1 and 2 ... Link... in... Description</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus nesciunt optio, possimus nulla odio veniam, velit, consectetur delectus reprehenderit voluptatibus quos! A eligendi, eos perferendis dolores assumenda beatae illo cumque aliquam adipisci tempore vel est nisi minima aspernatur omnis praesentium molestiae officiis ducimus illum tempora vitae obcaecati. Asperiores id, amet minima, nam quis animi tenetur cum vel laudantium fugit, odit recusandae ducimus quo officiis mollitia nisi? Sit minus obcaecati ab in, temporibus recusandae ut neque incidunt ducimus numquam! Veniam dignissimos enim, provident temporibus consectetur suscipit maiores mollitia dicta quis harum perspiciatis iure, eius modi rem libero possimus eligendi, voluptate itaque!</p>
+        <br><br>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus nesciunt optio, possimus nulla odio veniam, velit, consectetur delectus reprehenderit voluptatibus quos! A eligendi, eos perferendis dolores assumenda beatae illo cumque aliquam adipisci tempore vel est nisi minima aspernatur omnis praesentium molestiae officiis ducimus illum tempora vitae obcaecati. Asperiores id, amet minima, nam quis animi tenetur cum vel laudantium fugit, odit recusandae ducimus quo officiis mollitia nisi? Sit minus obcaecati ab in, temporibus recusandae ut neque incidunt ducimus numquam! Veniam dignissimos enim, provident temporibus consectetur suscipit maiores mollitia dicta quis harum perspiciatis iure, eius modi rem libero possimus eligendi, voluptate itaque!</p>
+        <br><br>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus nesciunt optio, possimus nulla odio veniam, velit, consectetur delectus reprehenderit voluptatibus quos! A eligendi, eos perferendis dolores assumenda beatae illo cumque aliquam adipisci tempore vel est nisi minima aspernatur omnis praesentium molestiae officiis ducimus illum tempora vitae obcaecati. Asperiores id, amet minima, nam quis animi tenetur cum vel laudantium fugit, odit recusandae ducimus quo officiis mollitia nisi? Sit minus obcaecati ab in, temporibus recusandae ut neque incidunt ducimus numquam! Veniam dignissimos enim, provident temporibus consectetur suscipit maiores mollitia dicta quis harum perspiciatis iure, eius modi rem libero possimus eligendi, voluptate itaque!</p>
+    
+    </div>
+
+
+    <script>
+        var section = document.querySelector('section');
+        window.addEventListener('scroll', function(){
+            var value = window.scrollY;
+            section.style.clipPath = "circle("+ value +"px at center)"
+        })
+    </script>
+</body>
+</html>
